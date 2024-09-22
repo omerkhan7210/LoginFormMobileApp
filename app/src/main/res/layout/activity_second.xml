@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Display Lab Instructor Name -->
+    <TextView
+        android:id="@+id/textViewInstructorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Instructor: Instructor Name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Button to go back to MainActivity -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <!-- Next Button (No action as per your request) -->
+    <Button
+        android:id="@+id/btnNext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+</LinearLayout>
